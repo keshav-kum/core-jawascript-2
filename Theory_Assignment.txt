@@ -1,36 +1,40 @@
-Q1.Write a program that grades students based on their marks.
-.if greater than 90 then A grade
-.if between 70 and 90 then a B grade
-.if between 50 and 70 then a C grade
-.if Below 50 then an F grade
+Q1.Create an arrow function called square that takes a number as an argument and returns its square. Use the arrow function to calculate the square of a given number and display the result.
 
-Q2.Generate numbers between any 2 given numbers.
-Ex.
-const num1=10;
-const num2=25;
-
-Output:11,12,13,.....25
+Q2. The following is an array of 10 students ages:
+    => const ages = [19, 22, 19, 24, 20, 25, 26,24, 25, 24]
+.    Sort the array and find the min and max age.
+.    Find the median age(one middle item or two   middle items divided by two)
+.    Find the average age(all items divided by number of items)
+.     Find the range of the ages(max minus min)
+.     Compare the value of (min - average) and (max - average), use abs() method
 
 
-Q3.Use a nearest ternary operatorto check than a numbers is positive , nagative or zero. you have to print "posive" if the number is positive and similarly for negative and zero.
+Q3. Create a Map to store contact information (name, age, email, location) and implement a function to retrieve contact details by name.
 
 
-
-Q4.Describe the usage of the comma operator in JavaScript and provide an example.
-
-
-Q5.you're creating a basic login system. Make a login function with two things: a username and a password. Check if the username is "admin" and the passwordis "12345". if they're both correct,show "Login successful";if not show "invalid credentials."
-
-let username = "admin";
-let password = "12345";
-
-Login successful
+Q4. Create two objects person1 and person2 with properties name and age. Create a function “introduce” that 
+prints "Hello, I'm [name], and I'm [age] years old." Use the call method to make person2 introduce itself 
+using the introduce function.
 
 
-Q6. you are working on an e-commerce platform. Write a JavaScript program that takes the payment method ("credit", "debit", or "paypal") as input and uses a switch statement to determine and print the processing fee associated with each payment method. For example, "credi" may have a processing fee of 2%, "debit" 1.5% and "paypal" 3%.
+Q5. You are developing a program to manage a list of unique items. Write a JavaScript program that uses a 
+Set to store a collection of unique numbers. Use the Map object to associate each number with its square. 
+Finally, print both the unique numbers and their corresponding squares.
 
-Q7. you are building a weather application. Write a JavaScript program that takes  the current temprature as input and uses the conditional (ternary) operator to determine and print the weather condition. if the temprature is above 30 degree celcius, the condition is "Hot"; otherwise, it is "Moderate".
 
+Q6
+ .Create a simple JavaScript function named displayInfo that takes two parameters (name and role) and logs a message.
+. Use call to invoke the displayInfo function with specific arguments.
+. Use apply to invoke the displayInfo function with arguments passed as an array.
+. Create another function named greet that logs a greeting with this contextt
+. Use bind to create a new function boundGreet with a specific context and log the greeting.
 
-Q8. you are creating a program to calculate the sum of numbers. Write jawascript program that takes a positive integer as input and usage a do-while loop to calculate and print the sum of all numbers from 1 to the given integer.
+Q7. Tasks:
+.Create an object named calculator with methods add, subtract, and multiply.
+.Implement the calculate method in the calculator object, which takes an operation ('add', 'subtract', or 
+'multiply') and two numbers.
+. Use call to perform an addition operation using the calculate method.
+.Use apply to perform a multiplication operation using the calculate method with arguments as an array.
+.Create another object named discountCalculator with a discount percentage property and a method applyDiscount.
+. Use bind to create a new function calculateDiscount that is bound to the discountCalculator object and can be reused.
 

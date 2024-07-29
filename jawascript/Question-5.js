@@ -1,16 +1,15 @@
-// Q5.you're creating a basic login system. Make a login function with two things: a username and a password. Check if the username is "admin" and the passwordis "12345". if they're both correct,show "Login successful";if not show "invalid credentials."
+let uniqueNumbers = new Set([3, 7, 5, 7, 2, 3, 8]);
 
-// let username = "admin";
-// let password = "12345";
+let numberSquareMap = new Map();
 
-// Login successful
+uniqueNumbers.forEach(number => {
+    numberSquareMap.set(number, number*number)
+});
 
+console.log("Unique Numbers:");
+console.log(Array.from(uniqueNumbers).join(','));
 
-// let username = "admin";
-// let password = "12345";
-
-// if (username === "admin" && password === "12345") {
-//     console.log("Login successful")
-// } else {
-//     console.log("invalid credentials")
-// }
+console.log("\nNumber-Square Map:");
+numberSquareMap.forEach((square, number)=>{
+console.log(`4{number} : ${square}`);
+});

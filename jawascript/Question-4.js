@@ -1,7 +1,20 @@
-// Q4.Describe the usage of the comma operator in JavaScript and provide an example.
+const person1 = { name: "keshav", age: 24 };
+const person2 = { name: "suraj", age: 21 };
 
-let a = 5,
- b = 7,
- c = 9;
 
-console.log(a,b,c);
+
+
+function introduce() {
+    console.log(`Hello, I'm ${this.name}, and i'm ${this.age} years old.`);
+}
+
+
+
+introduce.call(person2);
+
+
+
+
+
+
+
